@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="navbar flex justify-between items-center">
+    <div class="navbar flex justify-between items-center p-4">
       <div class="flex justify-center items-center md:order-2">
         <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
           <div class="line h-0.5 w-6 my-1 bg-black"></div>
@@ -18,18 +18,30 @@
       </div>
       <div class="logo text-center flex md:order-1">
         <div>🪟Microsoft</div>
-        <div class="features absolute inset-0 md:flex md:mx-4 md:space-x-2 translate-x-96">
+        <div
+          class="features absolute w-fit md:static md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:mx-4 md:space-x-2-translate-x-96 md:translate-x-0"
+        >
           <div class="fitem">Microsoft 365</div>
-          <div class="fitem">Office</div>
-          <div class="fitem">Windows</div>
-          <div class="fitem">Surface</div>
-          <div class="fitem">Xbox</div>
-          <div class="fitem">Support</div>
+          <div class="fitem mx-2">Office</div>
+          <div class="fitem mx-1">Windows</div>
+          <div class="fitem mx-1">Surface</div>
+          <div class="fitem mx-1">Xbox</div>
+          <div class="fitem mx-1">Support</div>
         </div>
       </div>
       <div class="cart text-center md:order-3 flex">
         <div class="search hidden md:block">🔍</div>
-        <div>Cart Account</div>
+        <div>Cart Account
+        </div>
+      </div>
+    </div>
+    <div class="slider flex flex-col-reverse md:flex-row bg-gray-400 mx-2">
+      <div class="left flex flex-col justify-center items-center md:items-baseline py-8">
+        <h1 class="text-4xl mx-5">Surface Laptop 4</h1>
+        <p class="w-3/4 mx-5 text-center md:text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem adipisci dolore fugiat corporis molestiae cupiditate neque. Ullam, maiores tenetur. Modi ab vitae enim eaque cumque eius quae placeat voluptatibus dicta!</p>
+      </div> 
+      <div class="right">
+        <img src="queen.jpg" alt="1">
       </div>
     </div>
   </body>
